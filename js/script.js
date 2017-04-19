@@ -3,9 +3,9 @@ $(function(){
 
     // YOU MUST EDIT THIS SECTION
     // You must supply a Trove API key
-    var troveAPIKey = '';
+    var troveAPIKey = '8c3d158muvao3135';
     // Either provide full API query here or include options below
-    var apiQuery = '';
+    var apiQuery = 'http://api.trove.nla.gov.au/result?q=communist+OR+red';
     // Words you want to search for -- separate multiple values with spaces, eg:
     // var keywords = 'weather wragge';
     var keywords = '';
@@ -15,10 +15,10 @@ $(function(){
     // var titles = '840 35';
     var titles = '';
     // Add a byline, eg:
-    var byline = 'Created by <a href="https://timsherratt.org">Tim Sherratt</a>.'
+    var byline = 'Created by <a href="http://www.uow.edu.au/index.html">Steph</a>.'
     // var byline = '';
     // Add a tagline
-    var tagline = 'How well do you know your Australian history?';
+    var tagline = 'Is this about the Communist Party? What year did this happen?';
     // Leave this alone unless you're publishing on a non-https server
     var useHttps = 'true';
 
